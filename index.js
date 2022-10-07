@@ -41,6 +41,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/Movies", () => {
     console.log("DB connected!")
 })
 
-const server = app.listen(3001, () => {
+const server = app.listen(4484, () => {
     console.log(server.address())
 })
