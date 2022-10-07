@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.6.5"
+  },
+  "name": "fullstackex",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js",
+      "test": "mocha tests",
+      "coverage": "nyc npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azaaz123/FullStackEx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Azaaz123/FullStackEx/issues"
+  },
+  "homepage": "https://github.com/Azaaz123/FullStackEx#readme",
+  "description": ""
+}
