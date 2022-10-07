@@ -49,8 +49,9 @@ router.post("/update/:id", (req, res, next) => {
 })
 
 router.delete("/deleteOne/:id", (req, res, next) => {
-    moviesModel.findByIdAndRemove({"_id:":req.params.id}).then((New) => {
-        res.status(500).json(New)}).catch(next)
+    moviesModel.deleteOne({"_id":req.params.id}).then( (r) => {
+        res.status(200).json(r)
+    }).catch(next)
 
 })
 
